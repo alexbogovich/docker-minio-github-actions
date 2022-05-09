@@ -17,7 +17,7 @@ jobs:
       AWS_SECRET_ACCESS_KEY: minioadmin
     services:
       minio:
-        image: fclairamb/minio-github-actions
+        image: ghcr.io/alexbogovich/docker-minio-github-actions
         ports:
           - 9000:9000
     steps:
